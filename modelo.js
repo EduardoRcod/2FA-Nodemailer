@@ -92,14 +92,14 @@ modelo.enviarCorreo = function(email, token, callback){
         port: 465,
         secure: true,
         auth: {
-            user: 'danlo272803@gmail.com',
+            user: 'angeduram123@gmail.com',
             pass: 'aqui va la contraseña'
         }
     });
 
     let mailOptions = {
 
-        from: 'danlo272803@gmail.com',
+        from: 'angeduram123@gmail.com',
         to: email,
         subject: 'Confirmacion del correo',
         html: '<p> Haz click en el siguiente link <a href="http://localhost:3000/verificarToken?token=' + token + '"> Haz click aqui </a>  </p>'
